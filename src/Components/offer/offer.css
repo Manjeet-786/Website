@@ -1,0 +1,35 @@
+.offers{
+    width: 65%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background-color: rgb(240, 215, 219);
+}
+.offers-left{
+    flex: 1;
+   margin-top: 10%;
+}
+.offers-left h1{
+    color: #171717;
+}
+.offers-left p{
+    color:  #373737;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offers-left button{
+    width: 270px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #171717;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right{
+margin-top: 10%;
+    padding-top: 15px;
+}

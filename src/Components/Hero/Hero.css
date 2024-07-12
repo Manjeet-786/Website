@@ -1,0 +1,51 @@
+.hero{
+height: 100vh;
+background-color: pink;
+display: flex;
+
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 180px;
+}.hero-left h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero-left p{
+    color: blue;
+    font-size: 40px;
+
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px; 
+    border-radius: 75px;
+    margin-top: 30px;
+    background:skyblue;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+   
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
